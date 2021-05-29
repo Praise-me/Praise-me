@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>
+        Document
+    </title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <script>
+        var name = prompt("what's your name ? ")
+        alert('Hello ' + name);
+    </script>
+
+    <div class="container">
+        <form action="/after_login.php">
+            <div class="form-group">
+                <label for="email">Email:</label>
+                <input type="email" class="form-control" id="email" placeholder="Enter email" name="email">
+            </div>
+            <br>
+            <div class="form-group">
+                <label for="pwd">Password:</label>
+                <input type="pwd" class="form-control" id="pwd" placeholder="enter your password" name="pwd">
+            </div>
+
+            <div class="checkbox">
+                <label><input type="checkbox" name="remember">Remember me</label> </div>
+        </form>
+
+    </div>
+
+
+    <form>
+        <!--<fieldset>
+            <input type="Name" placeholder="UserName">
+            <input type="password " placeholder="password"><br>
+            <input type="button" value="submit">
+        </fieldset>-->
+        <p>Male <input type="checkbox" placeholder="Male"><br></p>
+
+        <p>Female <input type="checkbox" placeholder="Female"></p>
+    </form>
+
+
+    <div class="btn-group-vertical ">
+        <a href="index.html " class="btn btn-outline-dark btn-block ">Submit</a>
+    </div>
+
+    <!-- <div class="btn-group btn-group-toogle " data-toggle="buttons ">
+        <label class="btn btn-outline-primary " active>
+                <input type="checkbox " name=" ">Male
+            </label>
+                <label class="btn btn-outline-primary ">
+                <input type="checkbox " name=" ">Female
+            </label>
+            </div>-->
+
+</body>
+
+</html>
